@@ -1,5 +1,6 @@
 # MToken Embedded System
 
+
 ## Introduction
 
 MToken is an open framework for ultra low latency data, model processing and management that demands speed and capacity.  
@@ -8,27 +9,29 @@ MToken is an open framework for ultra low latency data, model processing and man
 ## Subsystem
 
 ### Financial Application in a FPGA
-- Market Data Feed
-- Pre-Trade/Post-Trade Analytics 
+- Venue Connectivity/API
+- Real Time Market Data Feed
+- Pre-Trade Analytics
+- Pricing Engine
 - Order Routing and Execution
-- Order Matching and Venue Connectivity API 
+- Order Matching
 - OTC Flow Message Management
-- Trading Risk Control (Limit, Circuit Breaks...)
+- Post-Trade Analytics
+- Trading Risk Control (Limit, Circuit Breaks, etc)
 - STP/Trade Capture
 - Position, P&L, Book Management
 - Risk Management (VaR)
 - Clearing and Settlement
 - Stress/Scenarios Testing
-- Regulatory Reportings 
+- Regulatory Reporting 
 
 
-### Data Prcocessing in a FPGA
-- Data Warehousing, Data Mining
+### Data Processing in a FPGA
+- Data Mining
 - ETL
 - Data Aggregation
 - Data Routing
 - Inference with Model Engine
-
 
 ### Media Content Processing in a FPGA
 - Image
@@ -38,12 +41,12 @@ MToken is an open framework for ultra low latency data, model processing and man
 
 ## Architecture
 
-### Data Prcocessing
+### Data Processing
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                           MToken                            │
-│                   FPGA Data Platform Pipieline              │
+│                   FPGA Data Platform Pipeline               │
 └─────────────────────────────────────────────────────────────┘
 
 
